@@ -8,6 +8,7 @@ export default defineConfig({
   server: {
     host: true
   },
+  base: '/sm-proto/',
   plugins: [vue()],
   resolve: {
     alias: {
